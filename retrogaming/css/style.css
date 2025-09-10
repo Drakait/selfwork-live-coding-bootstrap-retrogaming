@@ -1,0 +1,101 @@
+* {
+   font-family: "Arimo", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+   font-family: "Oswald", sans-serif;
+}
+
+/* Variabili */
+
+:root {
+    --viol:rgb(27, 21, 64);
+    --dkviol:rgb(21, 9, 38);
+    --customw:rgb(244, 241, 241);
+}
+
+/* Generics */
+
+.bg-v {
+    background-color: var(--viol);
+}
+
+.bg-dkv {
+    background-color: var(--dkviol);
+}
+
+.txt-w {
+    color: var(--customw);
+}
+
+.txt-v {
+    color: var(--viol);
+}
+
+.txt-dkv {
+    color: var(--dkviol);
+}
+
+/* Header */
+.bkg-header {
+    background-image: url("../media/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-iscrizione {
+    font-weight: lighter;
+    font-size: smaller;
+    padding: 15px 30px;
+}
+
+.data-evento {
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media (max-width: 600px) {
+    .logo-aulab {
+    width: 75% !important;
+    height: auto;
+    margin: 0;
+    }
+}
+
+/* Main */
+
+.bkg-main {
+    background-image: url("../media/bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Form Custom */
+
+.form-custom {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(235, 220, 14);
+}
+.custom-input {
+    border-bottom: 1px solid rgb(148, 34, 163) !important;
+    border-radius: 0 !important;
+}
+
+input::placeholder {
+    color: rgb(84, 92, 105) !important;
+}
+
+.bkg-section3 {
+    background-image: url("../media/bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 30px 0;
+}
+
+
+/* Footer */
+.bkg-footer {
+    background-color: rgb(33, 37, 41);
+}
